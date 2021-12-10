@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_simple"
+    app:startDestination="@id/APIFirstFragment">
+
+    <fragment
+        android:id="@+id/APIFirstFragment"
+        android:name="dev.bahodir.easyfirstapi.fragment.APIFirstFragment"
+        android:label="fragment_a_p_i_first"
+        tools:layout="@layout/fragment_a_p_i_first" />
+</navigation>
